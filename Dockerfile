@@ -20,5 +20,5 @@ RUN npm install
 COPY . .
 
 # Start the API
-EXPOSE 3000
+EXPOSE 8080
 CMD [ "npm", "start" ]
